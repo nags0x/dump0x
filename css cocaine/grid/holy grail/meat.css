@@ -79,9 +79,9 @@ body{
 
 
 .g {
-    place-content: center;
-    text-align: center;
+    display: grid;
     justify-content: center;
+    align-content: center;
     margin: 10px;
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
