@@ -31,6 +31,7 @@ body{
   "sub-img1 sub-img1 sub-img1 sub-img1 sub-img2 sub-img2 sub-img2"
   "footer footer footer footer footer footer footer";
   border: 1px solid rgb(167, 164, 164);
+  background-color: rgb(18, 18, 19);
 }
 
 .Header{
