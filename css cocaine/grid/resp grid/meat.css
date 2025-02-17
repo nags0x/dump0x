@@ -8,97 +8,114 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  background-color: black;
+  color: aliceblue;
+  font-size: 17px;
 }
 
 .container{
   display: grid;
-  grid-template-columns: repeat(5, 200px);
+  grid-template-columns: 200px 50px 150px 100px 100px 200px 200px;
   grid-template-rows: 100px repeat(6, 40px) 150px 100px 50px;
   grid-template-areas:
-  "header header header header header"
-  "home about course gallery contact"
-  "h1 image image image image"
-  "h2 image image image image"
-  "h3 image image image image"
-  "h4 image image image image"
-  "h5 image image image image"
-  "client client client client client"
-  "sub-img sub-img sub-img sub-img sub-img"
-  "footer footer footer footer footer";
-  border: 1px solid black;
+  "header header header header header header header"
+  "home about about course course gallery contact"
+  "h1 h1 image image image image image"
+  "h2 h2 image image image image image"
+  "h3 h3 image image image image image"
+  "h4 h4 image image image image image"
+  "h5 h5 image image image image image"
+  "client client client client client client client"
+  "sub-img1 sub-img1 sub-img1 sub-img1 sub-img2 sub-img2 sub-img2"
+  "footer footer footer footer footer footer footer";
+  border: 1px solid rgb(167, 164, 164);
 }
 
 .Header{
   grid-area: header;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .Home{
   grid-area: home;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .About{
   grid-area: about;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .Course{
   grid-area: course;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .Gallery{
   grid-area: gallery;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .Contact{
   grid-area: contact;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .h1{
   grid-area: h1;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .h2{
   grid-area: h2;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .h3{
   grid-area: h3;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .h4{
   grid-area: h4;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .h5{
   grid-area: h5;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .image{
   grid-area: image;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
 .client{
   grid-area: client;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
 }
 
-.sub-img{
-  grid-area: sub-img;
-  border: 1px solid black;
+.sub-img1{
+  grid-area: sub-img1;
+      border: 1px solid rgb(167, 164, 164);
 }
+
+.sub-img2{
+  grid-area: sub-img2;
+      border: 1px solid rgb(167, 164, 164);
+}
+
 
 .footer{
   grid-area: footer;
-  border: 1px solid black;
+      border: 1px solid rgb(167, 164, 164);
+}
+
+.container > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
