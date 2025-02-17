@@ -1,0 +1,104 @@
+html, body{
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: 100px repeat(6, 40px) 150px 100px 50px;
+  grid-template-areas:
+  "header header header header header"
+  "home about course gallery contact"
+  "h1 image image image image"
+  "h2 image image image image"
+  "h3 image image image image"
+  "h4 image image image image"
+  "h5 image image image image"
+  "client client client client client"
+  "sub-img sub-img sub-img sub-img sub-img"
+  "footer footer footer footer footer";
+  border: 1px solid black;
+}
+
+.Header{
+  grid-area: header;
+  border: 1px solid black;
+}
+
+.Home{
+  grid-area: home;
+  border: 1px solid black;
+}
+
+.About{
+  grid-area: about;
+  border: 1px solid black;
+}
+
+.Course{
+  grid-area: course;
+  border: 1px solid black;
+}
+
+.Gallery{
+  grid-area: gallery;
+  border: 1px solid black;
+}
+
+.Contact{
+  grid-area: contact;
+  border: 1px solid black;
+}
+
+.h1{
+  grid-area: h1;
+  border: 1px solid black;
+}
+
+.h2{
+  grid-area: h2;
+  border: 1px solid black;
+}
+
+.h3{
+  grid-area: h3;
+  border: 1px solid black;
+}
+
+.h4{
+  grid-area: h4;
+  border: 1px solid black;
+}
+
+.h5{
+  grid-area: h5;
+  border: 1px solid black;
+}
+
+.image{
+  grid-area: image;
+  border: 1px solid black;
+}
+
+.client{
+  grid-area: client;
+  border: 1px solid black;
+}
+
+.sub-img{
+  grid-area: sub-img;
+  border: 1px solid black;
+}
+
+.footer{
+  grid-area: footer;
+  border: 1px solid black;
+}
