@@ -1,6 +1,5 @@
 // const mongoose  = require("mongoose");
 
-// mongoose.connect("mongodb+srv://nagpichikaganesh:Ganesh123@cluster0.szom4.mongodb.net/I_created?retryWrites=true&w=majority")
 // .then(() => {
 //     console.log("Connected to MongoDb");
 
@@ -22,7 +21,7 @@
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://nagpichikaganesh:Ganesh123@cluster0.szom4.mongodb.net/I_created?retryWrites=true&w=majority")
+//mongoose.connect("your_url") :))))))
 
 .then(()=> {
     console.log("db connection successfully");
